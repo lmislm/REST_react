@@ -1,10 +1,14 @@
 # REST_react
-REST API Tutorial
+ Express MongoDB `mogoose` React `GEOJSON`
+ 
+` cnpm install`
 
-> `Express&&MongoDB&&GEOJSON`
+`nodemon`
 
-GEOJSON Data is Here
+localhost:4000
 
-问题：
-React/Redux Render Error`Inline Babel script:13 Uncaught (in promise) TypeError: Cannot read property 'available' of undefined`
 
+[GEOJSON Data is Here][1]
+
+
+  [1]: https://github.com/lmislm/REST_react/blob/master/data/data.txt
