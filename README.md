@@ -1,5 +1,5 @@
 # REST_react
- Express MongoDB `mogoose` React `GEOJSON`
+ Crud Express MongoDB `mogoose` React `GEOJSON`
  
 ` cnpm install`
 
