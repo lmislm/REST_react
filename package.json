@@ -1,0 +1,27 @@
+{
+  "name": "rest_react",
+  "version": "1.0.0",
+  "description": "REST API Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmislm/REST_react.git"
+  },
+  "author": "lmislm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmislm/REST_react/issues"
+  },
+  "homepage": "https://github.com/lmislm/REST_react#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
