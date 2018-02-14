@@ -8,6 +8,13 @@ const App = require('../models/app');
 
 //get a list of app from the db
 router.get('/apps',function (req, res, next) {
+
+/*    // res.send({type:'GET'});
+
+   /!* App.find({}).then(function (apps) {
+        res.send(apps);
+    });*!/*/
+
     /*outdate method
     App.geoNear(
      {
@@ -26,7 +33,7 @@ router.get('/apps',function (req, res, next) {
         distanceField: "dist.calculated"
     })﻿﻿.then(function (apps) {
         res.send(apps);
-    });
+    }).catch(next);
 });
 
 //add a new app to the db
