@@ -1,14 +1,24 @@
 # REST_react
  Crud Express MongoDB `mogoose` React `GEOJSON`
  
-` cnpm install`
+ add some GEOjson data in mongoDB to try,link [GEOJSON Data is Here][1]
+ 
+> ` cnpm install`
+> `nodemon`
+> localhost:3001
 
-`nodemon`
+`//粘贴下面这些，将数据添加到mongodb中
+db.appgo.insert({
+  "name": "张七",
+  "rank": "no belt",
+  "available": true,
+  "geometry" : {"type": "point", "coordinates": [-81.500, 24.10]}
+})
+//等等数据，appgo为我的数据库名称
 
-localhost:3001
+//查看数据库中数据
+db.appgo.find().pretty()
 
-
-[GEOJSON Data is Here][1]
 
 |     |     |     |     |
 | --- | --- | --- | --- |
