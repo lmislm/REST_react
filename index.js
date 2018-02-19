@@ -30,6 +30,6 @@ app.post('/api', function (req,res) {
     res.send({name:'yosh'})
 });
 
-app.listen(process.env.port || 4000, function () {
+app.listen(process.env.port || 3001, function () {
     console.log('listening for question')
 })
